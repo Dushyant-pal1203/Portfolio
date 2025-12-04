@@ -102,7 +102,7 @@ export default function Contact() {
             >
               <motion.a
                 href="mailto:aditya.pal32742@gmail.com"
-                className="block text-2xl md:text-3xl font-bold text-white hover:text-primary transition-colors relative group w-fit"
+                className="block text-xl md:text-2xl font-bold text-white hover:text-primary transition-colors relative group w-fit"
                 whileHover={{ x: 10 }}
               >
                 aditya.pal32742@gmail.com
