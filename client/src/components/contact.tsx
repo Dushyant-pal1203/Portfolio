@@ -105,7 +105,7 @@ export default function Contact() {
                 className="block text-2xl md:text-3xl font-bold text-white hover:text-primary transition-colors relative group w-fit"
                 whileHover={{ x: 10 }}
               >
-                hello@example.com
+                aditya.pal32742@gmail.com
                 <motion.span
                   className="absolute -bottom-1 left-0 h-0.5 bg-primary"
                   initial={{ width: 0 }}
