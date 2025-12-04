@@ -101,7 +101,7 @@ export default function Contact() {
               className="space-y-8"
             >
               <motion.a
-                href="mailto:hello@example.com"
+                href="mailto:aditya.pal32742@gmail.com"
                 className="block text-2xl md:text-3xl font-bold text-white hover:text-primary transition-colors relative group w-fit"
                 whileHover={{ x: 10 }}
               >
