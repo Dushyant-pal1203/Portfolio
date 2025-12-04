@@ -6,21 +6,23 @@ interface MarqueeProps {
   className?: string;
 }
 
-export default function Marquee({ items, speed = 20, className = "" }: MarqueeProps) {
+export default function Marquee({
+  items,
+  speed = 20,
+  className = "",
+}: MarqueeProps) {
   const repeatedItems = [...items, ...items, ...items, ...items];
 
   return (
     <div className={`overflow-hidden whitespace-nowrap ${className}`}>
       <motion.div
         className="inline-flex"
-        animate={{
-          x: [0, -50 * items.length + "%"],
-        }}
+        animate={{ x: ["0%", "-50%"] }}
         transition={{
           x: {
             repeat: Infinity,
             repeatType: "loop",
-            duration: speed,
+            duration: speed, // higher = slower
             ease: "linear",
           },
         }}
