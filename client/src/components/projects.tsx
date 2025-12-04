@@ -5,6 +5,32 @@ import { ArrowUpRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: "01",
+    title: "INVENTORY SYSTEM",
+    category: "Inventory & Stock Management System",
+    description:
+      "A real-time inventory management system with automated stock tracking, low-stock alerts, and multi-warehouse support. Features an intuitive dashboard, role-based access control, and optimized API architecture for fast and reliable operations.",
+    technologies: ["React", "Node.js", "PostgreSQL", "WebGL", "FHIR"],
+    year: "2025",
+    color: "#F59E0B",
+    stats: { patients: "200K+", accuracy: "99.7%", hospitals: "50+" },
+    liveUrl: "https://inventory-system-h2u5.onrender.com/",
+    codeUrl: "https://github.com/Dushyant-pal1203/Inventory_system.git",
+  },
+  {
+    id: "02",
+    title: "GOLDBAZZAR",
+    category: "Invest in DigitalGold & Silver",
+    description:
+      "A modern digital investment platform for buying and selling 24K gold and silver with real-time price tracking.Built with a smooth, app-like user experience featuring instant transactions, live market charts, automated portfolio insights, and bank-grade data security.Designed for trust, speed, and simplicity—bringing digital bullion investment to everyday users.",
+    technologies: ["Next.js", "Three.js", "GSAP", "Sanity CMS"],
+    year: "2025",
+    color: "#8B5CF6",
+    stats: { views: "1M+", awards: "3", bounce: "< 20%" },
+    liveUrl: "https://goldbazzar.in/",
+    codeUrl: "https://gitlab.hashstudioz.com/gold_bazzar/marketing-web.git",
+  },
+  {
+    id: "03",
     title: "MOTONEXA",
     category: "Automotive Parts Sourcing Platform",
     description:
@@ -18,43 +44,17 @@ const projects = [
       "https://gitlab.hashstudioz.com/motonexa/front-end/frontend-app.git",
   },
   {
-    id: "02",
-    title: "GOLDBAZZAR",
-    category: "Invest in DigitalGold & Silver",
-    description:
-      "A modern digital investment platform for buying and selling 24K gold and silver with real-time price tracking.Built with a smooth, app-like user experience featuring instant transactions, live market charts, automated portfolio insights, and bank-grade data security.Designed for trust, speed, and simplicity—bringing digital bullion investment to everyday users.",
-    technologies: ["Next.js", "Three.js", "GSAP", "Sanity CMS"],
-    year: "2024",
-    color: "#8B5CF6",
-    stats: { views: "1M+", awards: "3", bounce: "< 20%" },
-    liveUrl: "https://goldbazzar.in/",
-    codeUrl: "https://gitlab.hashstudioz.com/gold_bazzar/marketing-web.git",
-  },
-  {
-    id: "03",
+    id: "04",
     title: "HASHSTUDIOZ",
     category: "AI, IoT & Cloud Solutions Provider",
     description:
       "A multidisciplinary tech studio crafting intelligent digital products powered by cloud, AI, blockchain, and IoT. HashStudioz blends engineering finesse with thoughtful design to deliver seamless, scalable, and future-proof software experiences for global brands.",
     technologies: ["Next.js", "Python", "Stable Diffusion", "Ethereum"],
-    year: "2023",
+    year: "2024",
     color: "#06B6D4",
     stats: { artworks: "100K+", artists: "5K+", volume: "$2M+" },
     liveUrl: "https://www.hashstudioz.com/",
     codeUrl: "/",
-  },
-  {
-    id: "04",
-    title: "INVENTORY SYSTEM",
-    category: "Inventory & Stock Management System",
-    description:
-      "A real-time inventory management system with automated stock tracking, low-stock alerts, and multi-warehouse support. Features an intuitive dashboard, role-based access control, and optimized API architecture for fast and reliable operations.",
-    technologies: ["React", "Node.js", "PostgreSQL", "WebGL", "FHIR"],
-    year: "2023",
-    color: "#F59E0B",
-    stats: { patients: "200K+", accuracy: "99.7%", hospitals: "50+" },
-    liveUrl: "https://inventory-system-h2u5.onrender.com/",
-    codeUrl: "https://github.com/Dushyant-pal1203/Inventory_system.git",
   },
 ];
 
