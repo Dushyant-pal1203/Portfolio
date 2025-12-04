@@ -35,7 +35,7 @@ export default function Navbar() {
         >
           <span className="flex items-center gap-2">
             <span>
-              <img src={Logo} alt="Profile" className="w-15 h-10" />
+              <img src={Logo} alt="Profile" className="w-12 h-10" />
             </span>{" "}
             DUSHYANT PAL<span className="text-primary">.</span>
           </span>

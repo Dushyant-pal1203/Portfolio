@@ -46,15 +46,15 @@ const experiences = [
 
 const education = [
   {
-    period: "2014 — 2018",
-    degree: "B.S. Computer Science",
-    school: "Stanford University",
+    period: "2019-2021",
+    degree: "Master of Computer Applications(MCA)",
+    school: " Indira Gandhi National Open University (IGNOU)",
     honors: "Magna Cum Laude",
   },
   {
-    period: "2016",
-    degree: "Design Thinking Certificate",
-    school: "d.school Stanford",
+    period: "2019",
+    degree: "Bachelor of Computer Applications(BCA)",
+    school: " Indira Gandhi National Open University (IGNOU)",
     honors: "With Distinction",
   },
 ];
