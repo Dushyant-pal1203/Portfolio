@@ -6,7 +6,7 @@ import { MapPin, Calendar, Heart, Coffee, Code2, Zap } from "lucide-react";
 const skills = [
   { name: "React / Next.js", level: 95 },
   { name: "TypeScript", level: 92 },
-  { name: "WebGL / Three.js", level: 88 },
+  // { name: "WebGL / Three.js", level: 88 },
   { name: "Node.js / Express", level: 85 },
   { name: "UI/UX Design", level: 90 },
   { name: "Figma / Design Tools", level: 93 },
@@ -216,8 +216,8 @@ export default function About() {
               {/* Bio Paragraphs */}
               <div className="space-y-6 mb-10">
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  Hello! I'm a design engineer based in New York City with over
-                  5 years of experience creating digital products that people
+                  Hello! I'm a design engineer based in New Delhi with over 2
+                  years of experience creating digital products that people
                   love. I believe that great design is invisible — it just
                   works.
                 </p>

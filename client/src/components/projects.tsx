@@ -14,7 +14,8 @@ const projects = [
     color: "#D1F608",
     stats: { users: "50K+", uptime: "99.9%", performance: "< 50ms" },
     liveUrl: "https://motonexa.com",
-    codeUrl: "https://github.com/aditya/motonexa",
+    codeUrl:
+      "https://gitlab.hashstudioz.com/motonexa/front-end/frontend-app.git",
   },
   {
     id: "02",
@@ -27,7 +28,7 @@ const projects = [
     color: "#8B5CF6",
     stats: { views: "1M+", awards: "3", bounce: "< 20%" },
     liveUrl: "https://goldbazzar.in/",
-    codeUrl: "https://github.com/aditya/motonexa",
+    codeUrl: "https://gitlab.hashstudioz.com/gold_bazzar/Admin_panel.git",
   },
   {
     id: "03",
@@ -53,7 +54,7 @@ const projects = [
     color: "#F59E0B",
     stats: { patients: "200K+", accuracy: "99.7%", hospitals: "50+" },
     liveUrl: "https://inventory-system-h2u5.onrender.com/",
-    // codeUrl: "/",
+    codeUrl: "https://github.com/Dushyant-pal1203/Inventory_system.git",
   },
 ];
 
