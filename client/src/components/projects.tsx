@@ -28,7 +28,7 @@ const projects = [
     color: "#8B5CF6",
     stats: { views: "1M+", awards: "3", bounce: "< 20%" },
     liveUrl: "https://goldbazzar.in/",
-    codeUrl: "https://gitlab.hashstudioz.com/gold_bazzar/Admin_panel.git",
+    codeUrl: "https://gitlab.hashstudioz.com/gold_bazzar/marketing-web.git",
   },
   {
     id: "03",
